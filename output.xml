@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.1 (Python 3.13.5 on darwin)" generated="2025-06-24T11:58:44.930605" rpa="false" schemaversion="5">
+<suite id="s1" name="Signup" source="/Users/electrum/Downloads/paymongo-robot-tests/robot/test_suites/signup.robot">
+<test id="s1-t1" name="User Can Signup with verify Email" line="9">
+<kw name="Company" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:45.179610" level="INFO">${business_name} = Webster-Brown</msg>
+<var>${business_name}</var>
+<doc>:example: 'Acme Ltd'</doc>
+<status status="PASS" start="2025-06-24T11:58:45.179306" elapsed="0.000327"/>
+</kw>
+<kw name="First Name" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:45.179883" level="INFO">${first_name} = Jaime</msg>
+<var>${first_name}</var>
+<status status="PASS" start="2025-06-24T11:58:45.179740" elapsed="0.000158"/>
+</kw>
+<kw name="Last Name" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:45.180085" level="INFO">${last_name} = Wright</msg>
+<var>${last_name}</var>
+<status status="PASS" start="2025-06-24T11:58:45.179967" elapsed="0.000130"/>
+</kw>
+<kw name="Random Number" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:45.180504" level="INFO">${mobile_number} = 3201525708</msg>
+<var>${mobile_number}</var>
+<arg>digits=10</arg>
+<doc>Generate a random integer according to the following rules:</doc>
+<status status="PASS" start="2025-06-24T11:58:45.180156" elapsed="0.000360"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2025-06-24T11:58:45.181112" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/electrum/Downloads/paymongo-robot-tests/browser/traces/temp/2fdc5f85-b6e1-4fd1-9b62-105fda53a73c"}</msg>
+<msg time="2025-06-24T11:58:45.198644" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:56155</msg>
+<msg time="2025-06-24T11:58:47.272726" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/electrum/Downloads/paymongo-robot-tests/browser/traces/temp/2fdc5f85-b6e1-4fd1-9b62-105fda53a73c"}</msg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-06-24T11:58:45.180791" elapsed="2.092138"/>
+</kw>
+<kw name="Open Signup Page" owner="signup_page">
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-24T11:58:50.249232" level="INFO">Successfully initialized new page object and opened url: https://dashboard.paymongo-uat.com/signup</msg>
+<msg time="2025-06-24T11:58:50.249293" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${base_url_signup}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-24T11:58:47.273663" elapsed="2.975737"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:58:47.273328" elapsed="2.976151"/>
+</kw>
+<kw name="Input Business Name" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:50.250473" level="INFO">Fills the text 'Webster-Brown' in the given field.</msg>
+<arg>${BUSINESS_INPUT}</arg>
+<arg>${business_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.249939" elapsed="0.029697"/>
+</kw>
+<arg>${business_name}</arg>
+<status status="PASS" start="2025-06-24T11:58:50.249651" elapsed="0.030080"/>
+</kw>
+<kw name="Input Full Name" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:50.280422" level="INFO">Fills the text 'Jaime' in the given field.</msg>
+<arg>${FIRST_NAME_INPUT}</arg>
+<arg>${first_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.280153" elapsed="0.012239"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:50.292989" level="INFO">Fills the text 'Wright' in the given field.</msg>
+<arg>${LAST_NAME_INPUT}</arg>
+<arg>${last_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.292543" elapsed="0.007566"/>
+</kw>
+<arg>${first_name}</arg>
+<arg>${last_name}</arg>
+<status status="PASS" start="2025-06-24T11:58:50.279900" elapsed="0.020299"/>
+</kw>
+<kw name="Input Mobile Number" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:50.300887" level="INFO">Fills the text '3201525708' in the given field.</msg>
+<arg>${MOBILE_NUMBER_INPUT}</arg>
+<arg>${mobile_number}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.300600" elapsed="0.006840"/>
+</kw>
+<arg>${mobile_number}</arg>
+<status status="PASS" start="2025-06-24T11:58:50.300349" elapsed="0.007184"/>
+</kw>
+<kw name="Enter Email" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:50.308717" level="INFO">Fills the text 'jaime@example.com' in the given field.</msg>
+<arg>${EMAIL_INPUT}</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.308462" elapsed="0.007691"/>
+</kw>
+<arg>${first_name.lower()}@example.com</arg>
+<status status="PASS" start="2025-06-24T11:58:50.307922" elapsed="0.008318"/>
+</kw>
+<kw name="Enter Password" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:50.316911" level="INFO">Fills the text 'Testing123@!' in the given field.</msg>
+<arg>${PASSWORD_INPUT}</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.316631" elapsed="0.036220"/>
+</kw>
+<arg>Testing123@!</arg>
+<status status="PASS" start="2025-06-24T11:58:50.316396" elapsed="0.036539"/>
+</kw>
+<kw name="Select Business Average Revenue" owner="signup_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:58:50.353570" level="INFO">Clicks the element 'xpath=//div[@class="select sign-up-form__select-estimated-monthly-volume"]'.</msg>
+<arg>${REVENUE_SELECT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.353312" elapsed="0.045391"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:58:50.400160" level="INFO">Clicks the element 'xpath=//div[contains(@class, 'select-option__content') and text()='Between ₱100,000 and ₱300,000']'.</msg>
+<arg>xpath=//div[contains(@class, 'select-option__content') and text()='${revenue}']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.398853" elapsed="0.025440"/>
+</kw>
+<arg>Between ₱100,000 and ₱300,000</arg>
+<status status="PASS" start="2025-06-24T11:58:50.353087" elapsed="0.071349"/>
+</kw>
+<kw name="Select Intended Use Paymongo" owner="signup_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:58:50.425061" level="INFO">Clicks the element 'xpath=//div[@class="select sign-up-form__select-business-intended-product"]'.</msg>
+<arg>${INTENDED_USE_SELECT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.424815" elapsed="0.024252"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:58:50.449663" level="INFO">Clicks the element 'xpath=//div[contains(@class, 'select-option__content') and text()='I plan to start a business soon']'.</msg>
+<arg>xpath=//div[contains(@class, 'select-option__content') and text()='${intended_use}']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.449287" elapsed="0.071307"/>
+</kw>
+<arg>I plan to start a business soon</arg>
+<status status="PASS" start="2025-06-24T11:58:50.424604" elapsed="0.096074"/>
+</kw>
+<kw name="Accept Terms and Conditions" owner="signup_page">
+<kw name="Check Checkbox" owner="Browser">
+<arg>${TNC_SELECT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.521054" elapsed="0.023022"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:58:50.520829" elapsed="0.023332"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>90s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.544295" elapsed="0.001475"/>
+</kw>
+<kw name="Click Button With Exact Text" owner="general_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:58:50.546346" level="INFO">Clicks the element '"Sign up"'.</msg>
+<arg>"${button_text}"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.546121" elapsed="0.026471"/>
+</kw>
+<arg>Sign up</arg>
+<status status="PASS" start="2025-06-24T11:58:50.545938" elapsed="0.026791"/>
+</kw>
+<kw name="Choose Validation Method" owner="signup_page">
+<kw name="Validate Text Exist" owner="general_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-06-24T11:58:55.664663" level="INFO">Waited for Element with selector text=Choose where we'll send the one-time password (OTP) to verify your account. at state visible</msg>
+<arg>text=${expected_text}</arg>
+<arg>visible</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-06-24T11:58:50.573312" elapsed="5.091478"/>
+</kw>
+<arg>Choose where we'll send the one-time password (OTP) to verify your account.</arg>
+<status status="PASS" start="2025-06-24T11:58:50.573182" elapsed="5.091700"/>
+</kw>
+<if>
+<branch type="IF" condition="'${validation_method}' == 'Mobile Number'">
+<kw name="Click Button With Exact Text" owner="general_page">
+<arg>Mobile Number</arg>
+<status status="NOT RUN" start="2025-06-24T11:58:55.665298" elapsed="0.000044"/>
+</kw>
+<kw name="Click Button With Exact Text" owner="general_page">
+<arg>Proceed</arg>
+<status status="NOT RUN" start="2025-06-24T11:58:55.665417" elapsed="0.000032"/>
+</kw>
+<kw name="Validate Text Exist" owner="general_page">
+<arg>Not your mobile number?</arg>
+<status status="NOT RUN" start="2025-06-24T11:58:55.665509" elapsed="0.000028"/>
+</kw>
+<status status="NOT RUN" start="2025-06-24T11:58:55.664992" elapsed="0.000566"/>
+</branch>
+<branch type="ELSE IF" condition="'${validation_method}' == 'Email'">
+<kw name="Click Button With Exact Text" owner="general_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:58:55.666179" level="INFO">Clicks the element '"Email"'.</msg>
+<arg>"${button_text}"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:55.665905" elapsed="0.012948"/>
+</kw>
+<arg>Email</arg>
+<status status="PASS" start="2025-06-24T11:58:55.665724" elapsed="0.013208"/>
+</kw>
+<kw name="Click Button With Exact Text" owner="general_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:58:55.679481" level="INFO">Clicks the element '"Proceed"'.</msg>
+<arg>"${button_text}"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:55.679233" elapsed="0.026561"/>
+</kw>
+<arg>Proceed</arg>
+<status status="PASS" start="2025-06-24T11:58:55.679035" elapsed="0.026847"/>
+</kw>
+<kw name="Validate Text Exist" owner="general_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-06-24T11:58:56.489587" level="INFO">Waited for Element with selector text=Not your email address? at state visible</msg>
+<arg>text=${expected_text}</arg>
+<arg>visible</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-06-24T11:58:55.706209" elapsed="0.783503"/>
+</kw>
+<arg>Not your email address?</arg>
+<status status="PASS" start="2025-06-24T11:58:55.705991" elapsed="0.783810"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:58:55.665597" elapsed="0.824235"/>
+</branch>
+<status status="PASS" start="2025-06-24T11:58:55.664959" elapsed="0.824909"/>
+</if>
+<arg>Email</arg>
+<status status="PASS" start="2025-06-24T11:58:50.572962" elapsed="5.916936"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-06-24T11:58:56.628330" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-24T11:58:56.490060" elapsed="0.138375"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:58:45.178736" elapsed="11.449851"/>
+</test>
+<test id="s1-t2" name="User Can Signup with verify mobile number" line="32">
+<kw name="Company" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:56.631286" level="INFO">${business_name} = Smith-Pitts</msg>
+<var>${business_name}</var>
+<doc>:example: 'Acme Ltd'</doc>
+<status status="PASS" start="2025-06-24T11:58:56.630919" elapsed="0.000383"/>
+</kw>
+<kw name="First Name" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:56.631506" level="INFO">${first_name} = Rodney</msg>
+<var>${first_name}</var>
+<status status="PASS" start="2025-06-24T11:58:56.631377" elapsed="0.000142"/>
+</kw>
+<kw name="Last Name" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:56.631689" level="INFO">${last_name} = Cox</msg>
+<var>${last_name}</var>
+<status status="PASS" start="2025-06-24T11:58:56.631576" elapsed="0.000123"/>
+</kw>
+<kw name="Random Number" owner="FakerLibrary">
+<msg time="2025-06-24T11:58:56.631904" level="INFO">${mobile_number} = 6849166630</msg>
+<var>${mobile_number}</var>
+<arg>digits=10</arg>
+<doc>Generate a random integer according to the following rules:</doc>
+<status status="PASS" start="2025-06-24T11:58:56.631755" elapsed="0.000161"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2025-06-24T11:58:56.632338" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/electrum/Downloads/paymongo-robot-tests/browser/traces/temp/b0e8ebc1-d3c0-4685-94ae-eb6dad9405f5"}</msg>
+<msg time="2025-06-24T11:58:56.901025" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/electrum/Downloads/paymongo-robot-tests/browser/traces/temp/b0e8ebc1-d3c0-4685-94ae-eb6dad9405f5"}</msg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-06-24T11:58:56.631993" elapsed="0.269254"/>
+</kw>
+<kw name="Open Signup Page" owner="signup_page">
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-24T11:58:59.895881" level="INFO">Successfully initialized new page object and opened url: https://dashboard.paymongo-uat.com/signup</msg>
+<msg time="2025-06-24T11:58:59.896035" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${base_url_signup}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-24T11:58:56.902040" elapsed="2.995798"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:58:56.901557" elapsed="2.996578"/>
+</kw>
+<kw name="Input Business Name" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:59.899945" level="INFO">Fills the text 'Smith-Pitts' in the given field.</msg>
+<arg>${BUSINESS_INPUT}</arg>
+<arg>${business_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:59.899236" elapsed="0.028090"/>
+</kw>
+<arg>${business_name}</arg>
+<status status="PASS" start="2025-06-24T11:58:59.898552" elapsed="0.028879"/>
+</kw>
+<kw name="Input Full Name" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:59.928262" level="INFO">Fills the text 'Rodney' in the given field.</msg>
+<arg>${FIRST_NAME_INPUT}</arg>
+<arg>${first_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:59.927919" elapsed="0.008300"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:59.936707" level="INFO">Fills the text 'Cox' in the given field.</msg>
+<arg>${LAST_NAME_INPUT}</arg>
+<arg>${last_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:59.936357" elapsed="0.007778"/>
+</kw>
+<arg>${first_name}</arg>
+<arg>${last_name}</arg>
+<status status="PASS" start="2025-06-24T11:58:59.927613" elapsed="0.016615"/>
+</kw>
+<kw name="Input Mobile Number" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:59.944918" level="INFO">Fills the text '6849166630' in the given field.</msg>
+<arg>${MOBILE_NUMBER_INPUT}</arg>
+<arg>${mobile_number}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:59.944636" elapsed="0.007375"/>
+</kw>
+<arg>${mobile_number}</arg>
+<status status="PASS" start="2025-06-24T11:58:59.944385" elapsed="0.007714"/>
+</kw>
+<kw name="Enter Email" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:59.953109" level="INFO">Fills the text 'rodney@example.com' in the given field.</msg>
+<arg>${EMAIL_INPUT}</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:59.952828" elapsed="0.007714"/>
+</kw>
+<arg>${first_name.lower()}@example.com</arg>
+<status status="PASS" start="2025-06-24T11:58:59.952276" elapsed="0.008358"/>
+</kw>
+<kw name="Enter Password" owner="signup_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-24T11:58:59.961306" level="INFO">Fills the text 'Testing123@!' in the given field.</msg>
+<arg>${PASSWORD_INPUT}</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:58:59.961035" elapsed="0.042128"/>
+</kw>
+<arg>Testing123@!</arg>
+<status status="PASS" start="2025-06-24T11:58:59.960795" elapsed="0.042457"/>
+</kw>
+<kw name="Select Business Average Revenue" owner="signup_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:59:00.003845" level="INFO">Clicks the element 'xpath=//div[@class="select sign-up-form__select-estimated-monthly-volume"]'.</msg>
+<arg>${REVENUE_SELECT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:00.003607" elapsed="0.037872"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:59:00.042043" level="INFO">Clicks the element 'xpath=//div[contains(@class, 'select-option__content') and text()='Between ₱100,000 and ₱300,000']'.</msg>
+<arg>xpath=//div[contains(@class, 'select-option__content') and text()='${revenue}']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:00.041613" elapsed="0.024346"/>
+</kw>
+<arg>Between ₱100,000 and ₱300,000</arg>
+<status status="PASS" start="2025-06-24T11:59:00.003398" elapsed="0.062644"/>
+</kw>
+<kw name="Select Intended Use Paymongo" owner="signup_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:59:00.066644" level="INFO">Clicks the element 'xpath=//div[@class="select sign-up-form__select-business-intended-product"]'.</msg>
+<arg>${INTENDED_USE_SELECT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:00.066399" elapsed="0.024081"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:59:00.090962" level="INFO">Clicks the element 'xpath=//div[contains(@class, 'select-option__content') and text()='I plan to start a business soon']'.</msg>
+<arg>xpath=//div[contains(@class, 'select-option__content') and text()='${intended_use}']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:00.090614" elapsed="0.063963"/>
+</kw>
+<arg>I plan to start a business soon</arg>
+<status status="PASS" start="2025-06-24T11:59:00.066193" elapsed="0.088489"/>
+</kw>
+<kw name="Accept Terms and Conditions" owner="signup_page">
+<kw name="Check Checkbox" owner="Browser">
+<arg>${TNC_SELECT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:00.155149" elapsed="0.021686"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:59:00.154896" elapsed="0.022024"/>
+</kw>
+<kw name="Click Button With Exact Text" owner="general_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:59:00.177544" level="INFO">Clicks the element '"Sign up"'.</msg>
+<arg>"${button_text}"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:00.177288" elapsed="0.028154"/>
+</kw>
+<arg>Sign up</arg>
+<status status="PASS" start="2025-06-24T11:59:00.177068" elapsed="0.028458"/>
+</kw>
+<kw name="Choose Validation Method" owner="signup_page">
+<kw name="Validate Text Exist" owner="general_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-06-24T11:59:04.686998" level="INFO">Waited for Element with selector text=Choose where we'll send the one-time password (OTP) to verify your account. at state visible</msg>
+<arg>text=${expected_text}</arg>
+<arg>visible</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-06-24T11:59:00.206048" elapsed="4.481117"/>
+</kw>
+<arg>Choose where we'll send the one-time password (OTP) to verify your account.</arg>
+<status status="PASS" start="2025-06-24T11:59:00.205923" elapsed="4.481335"/>
+</kw>
+<if>
+<branch type="IF" condition="'${validation_method}' == 'Mobile Number'">
+<kw name="Click Button With Exact Text" owner="general_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:59:04.688179" level="INFO">Clicks the element '"Mobile Number"'.</msg>
+<arg>"${button_text}"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:04.687882" elapsed="0.016104"/>
+</kw>
+<arg>Mobile Number</arg>
+<status status="PASS" start="2025-06-24T11:59:04.687673" elapsed="0.016401"/>
+</kw>
+<kw name="Click Button With Exact Text" owner="general_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-24T11:59:04.704734" level="INFO">Clicks the element '"Proceed"'.</msg>
+<arg>"${button_text}"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-24T11:59:04.704464" elapsed="0.024342"/>
+</kw>
+<arg>Proceed</arg>
+<status status="PASS" start="2025-06-24T11:59:04.704191" elapsed="0.024714"/>
+</kw>
+<kw name="Validate Text Exist" owner="general_page">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-06-24T11:59:05.528959" level="INFO">Waited for Element with selector text=Not your mobile number? at state visible</msg>
+<arg>text=${expected_text}</arg>
+<arg>visible</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-06-24T11:59:04.729296" elapsed="0.800026"/>
+</kw>
+<arg>Not your mobile number?</arg>
+<status status="PASS" start="2025-06-24T11:59:04.729027" elapsed="0.800514"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:59:04.687337" elapsed="0.842287"/>
+</branch>
+<branch type="ELSE IF" condition="'${validation_method}' == 'Email'">
+<kw name="Click Button With Exact Text" owner="general_page">
+<arg>Email</arg>
+<status status="NOT RUN" start="2025-06-24T11:59:05.530297" elapsed="0.000103"/>
+</kw>
+<kw name="Click Button With Exact Text" owner="general_page">
+<arg>Proceed</arg>
+<status status="NOT RUN" start="2025-06-24T11:59:05.530561" elapsed="0.000077"/>
+</kw>
+<kw name="Validate Text Exist" owner="general_page">
+<arg>Not your email address?</arg>
+<status status="NOT RUN" start="2025-06-24T11:59:05.530778" elapsed="0.000062"/>
+</kw>
+<status status="NOT RUN" start="2025-06-24T11:59:05.529709" elapsed="0.001180"/>
+</branch>
+<status status="PASS" start="2025-06-24T11:59:04.687312" elapsed="0.843629"/>
+</if>
+<arg>Mobile Number</arg>
+<status status="PASS" start="2025-06-24T11:59:00.205713" elapsed="5.325311"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-06-24T11:59:05.677356" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-24T11:59:05.531306" elapsed="0.146169"/>
+</kw>
+<status status="PASS" start="2025-06-24T11:58:56.629866" elapsed="9.047755"/>
+</test>
+<status status="PASS" start="2025-06-24T11:58:44.931486" elapsed="20.748785"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Signup" id="s1" pass="2" fail="0" skip="0">Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

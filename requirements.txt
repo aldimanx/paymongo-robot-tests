@@ -1,0 +1,7 @@
+robotframework
+robotframework-browser
+pytest
+robotframework-faker
+robotframework-ride
+
+#pip install -r requirements.txt

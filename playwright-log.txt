@@ -1,0 +1,161 @@
+{"level":30,"time":"2025-06-24T04:58:45.519Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Listening on 127.0.0.1:56155"}
+(node:89243) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-24T04:58:46.540Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-24T04:58:47.271Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 138.0.7204.15"}
+{"level":30,"time":"2025-06-24T04:58:47.271Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-24T04:58:47.271Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-24T04:58:47.275Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-24T04:58:47.275Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-24T04:58:47.307Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2025-06-24T04:58:47.685Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-24T04:58:47.685Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2025-06-24T04:58:50.248Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-24T04:58:50.251Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.251Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=businessName in page."}
+{"level":30,"time":"2025-06-24T04:58:50.278Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.281Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.281Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
+{"level":30,"time":"2025-06-24T04:58:50.291Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.293Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.293Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=lastName in page."}
+{"level":30,"time":"2025-06-24T04:58:50.299Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.301Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.301Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=contactNumber in page."}
+{"level":30,"time":"2025-06-24T04:58:50.306Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.309Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.309Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-06-24T04:58:50.315Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.318Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.318Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-06-24T04:58:50.351Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:50.354Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.354Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"select sign-up-form__select-estimated-monthly-volume\"] in page."}
+{"level":30,"time":"2025-06-24T04:58:50.397Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.401Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.401Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class, 'select-option__content') and text()='Between ₱100,000 and ₱300,000'] in page."}
+{"level":30,"time":"2025-06-24T04:58:50.423Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.425Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.425Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"select sign-up-form__select-business-intended-product\"] in page."}
+{"level":30,"time":"2025-06-24T04:58:50.448Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.450Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.450Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class, 'select-option__content') and text()='I plan to start a business soon'] in page."}
+{"level":30,"time":"2025-06-24T04:58:50.520Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.522Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2025-06-24T04:58:50.522Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=acceptedTerms in page."}
+{"level":30,"time":"2025-06-24T04:58:50.543Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2025-06-24T04:58:50.546Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.546Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with \"Sign up\" in page."}
+{"level":30,"time":"2025-06-24T04:58:50.571Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:58:50.574Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:58:50.574Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with text=Choose where we'll send the one-time password (OTP) to verify your account. in page."}
+{"level":30,"time":"2025-06-24T04:58:55.664Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:58:55.666Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:58:55.667Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with \"Email\" in page."}
+{"level":30,"time":"2025-06-24T04:58:55.678Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:58:55.680Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:58:55.680Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with \"Proceed\" in page."}
+{"level":30,"time":"2025-06-24T04:58:55.705Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:58:55.707Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:58:55.707Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with text=Not your email address? in page."}
+{"level":30,"time":"2025-06-24T04:58:56.489Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:58:56.491Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-24T04:58:56.503Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Removed page=a1ac15cb-e037-4234-b554-5ee1d2fcb27c from context=becae897-4af9-4484-87b1-57e202dce0b4 page stack"}
+{"level":30,"time":"2025-06-24T04:58:56.627Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-06-24T04:58:56.629Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-24T04:58:56.629Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-24T04:58:56.630Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-24T04:58:56.630Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-24T04:58:56.632Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-24T04:58:56.899Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 138.0.7204.15"}
+{"level":30,"time":"2025-06-24T04:58:56.900Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-24T04:58:56.899Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-24T04:58:56.903Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-24T04:58:56.903Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-24T04:58:56.912Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2025-06-24T04:58:57.194Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-24T04:58:57.194Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2025-06-24T04:58:59.894Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-24T04:58:59.901Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.901Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=businessName in page."}
+{"level":30,"time":"2025-06-24T04:58:59.926Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.929Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.929Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
+{"level":30,"time":"2025-06-24T04:58:59.935Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.937Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.937Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=lastName in page."}
+{"level":30,"time":"2025-06-24T04:58:59.943Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.945Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.945Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=contactNumber in page."}
+{"level":30,"time":"2025-06-24T04:58:59.951Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.953Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.953Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-06-24T04:58:59.959Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.962Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-24T04:58:59.962Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-06-24T04:59:00.002Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-24T04:59:00.004Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.004Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"select sign-up-form__select-estimated-monthly-volume\"] in page."}
+{"level":30,"time":"2025-06-24T04:59:00.040Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.042Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.042Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class, 'select-option__content') and text()='Between ₱100,000 and ₱300,000'] in page."}
+{"level":30,"time":"2025-06-24T04:59:00.065Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.067Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.067Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"select sign-up-form__select-business-intended-product\"] in page."}
+{"level":30,"time":"2025-06-24T04:59:00.089Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.091Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.091Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class, 'select-option__content') and text()='I plan to start a business soon'] in page."}
+{"level":30,"time":"2025-06-24T04:59:00.153Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.156Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2025-06-24T04:59:00.156Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=acceptedTerms in page."}
+{"level":30,"time":"2025-06-24T04:59:00.176Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2025-06-24T04:59:00.178Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.178Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with \"Sign up\" in page."}
+{"level":30,"time":"2025-06-24T04:59:00.204Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:59:00.207Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:59:00.207Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with text=Choose where we'll send the one-time password (OTP) to verify your account. in page."}
+{"level":30,"time":"2025-06-24T04:59:04.686Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:59:04.688Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:59:04.689Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with \"Mobile Number\" in page."}
+{"level":30,"time":"2025-06-24T04:59:04.703Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:59:04.705Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-24T04:59:04.705Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with \"Proceed\" in page."}
+{"level":30,"time":"2025-06-24T04:59:04.728Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-24T04:59:04.730Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:59:04.730Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with text=Not your mobile number? in page."}
+{"level":30,"time":"2025-06-24T04:59:05.527Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-24T04:59:05.533Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-24T04:59:05.553Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Removed page=577c9de7-331b-41f8-b7cf-c35dc429eaf7 from context=d860c91f-7c0b-4779-9674-862cc16c09a9 page stack"}
+{"level":30,"time":"2025-06-24T04:59:05.676Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-24T04:59:05.679Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-24T04:59:05.679Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-24T04:59:05.681Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-24T04:59:05.681Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-24T04:59:05.699Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-24T04:59:05.699Z","pid":89243,"hostname":"electrums-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}
